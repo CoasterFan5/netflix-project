@@ -34,6 +34,7 @@
         -webkit-text-size-adjust: 100%;
     }
     .nav {
+        position: fixed;
         width: 100%;
         height: 56px;
         background: black;

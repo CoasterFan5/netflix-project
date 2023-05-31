@@ -22,6 +22,39 @@
                 <span class="label">Starring:</span> Chris Pratt, Albert, Nancy Pelosi
             </p>
         </div>
+        
+    </div>
+    <div class="episodes">
+        <h2>Episodes</h2>
+        <div class="episodesButton">
+            <div class="button">
+                <p>Season 1 </p>
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" fill="#ffffff"/></svg>
+            </div> 
+        </div>
+        
+        <div class="episodeCardHolder">
+            <div class="episodeCard">
+                <img src="sputnik.jpg" alt="Sputnik 1 Space Craft"/>
+                <h3>Sputnik 1</h3>
+                <p>The soviets make the first move in this complex game of chess. With the United States hot on their tail, the soviets must act fast or lose their early race lead.</p>
+            </div>
+            <div class="episodeCard">
+                <img src="vostok.webp" alt="Sputnik 1 Space Craft"/>
+                <h3>Vostok 1</h3>
+                <p>The Soviets retain their lead, launching the first man into space. The United States still fights to catch up but the race is looking Bleaker and Bleaker to the American people.</p>
+            </div>
+            <div class="episodeCard">
+                <img src="freedom.jpg" alt="Sputnik 1 Space Craft"/>
+                <h3>Freedom 7</h3>
+                <p>With the United States badly beaten by the soviets, it would take a miracle for them to claim the space race crown.</p>
+            </div>
+            <div class="episodeCard">
+                <img src="apollo12.webp" alt="Sputnik 1 Space Craft"/>
+                <h3>Apollo 12</h3>
+                <p>Only a few years after the President's speech, the space race dramatically changes, leading to the United States victory over the final frontier.</p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -85,5 +118,38 @@
     }
     .label {
         color: #a3a3a3;
+    }
+    .episodes {
+        background: rgb(32, 32, 32);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5%
+    }
+    .episodesButton {
+        display: flex;
+        cursor: pointer;
+    }
+    .episodesButton .button {
+        display: flex;
+        align-items: center;
+        color: white;
+        border: 1px solid white;
+    }
+    .episodesButton .button p {
+        margin: 0px 10px;
+    }
+    .episodeCardHolder {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .episodeCard {
+        flex: 1 1 0px;
+        padding: 20px;
+        flex-grow: 2;
+    }
+    .episodeCard img {
+        width: 100%;
+        aspect-ratio: 16/9;
     }
 </style>
