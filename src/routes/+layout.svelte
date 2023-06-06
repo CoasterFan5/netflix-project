@@ -1,7 +1,7 @@
 <link src="https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2" rel="stylesheet">
 <link src="https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2" rel="stylesheet">
 
-<title>Watch Race to the Stars</title>
+<title>Watch Sputnik</title>
 <div class="wrap">
     <div class="nav">
             <div class="logoWrap">
