@@ -67,6 +67,31 @@
         
     </div>
     <div class="section">
+        <h2>Details</h2> 
+        <div class="detailsCardHolder">
+            <div class="detailsCard">
+                <h3>Cast</h3>
+                <p>Chris Pratt</p>
+                <p>Nancy Pelosi</p>
+                <p>Tyler Perry</p>
+                <p>Albert</p>
+            </div>
+            <div class="detailsCard">
+                <h3>Genres</h3>
+                <p>Action</p>
+                <p>Adventure</p>
+                <p>SCI-FI</p>
+                <p>Thriller</p>
+            </div>
+            <div class="detailsCard">
+                <h3>This Show is</h3>
+                <p>Exciting</p>
+                <p>Thrilling</p>
+                <p>Revolutionary</p>
+            </div>
+        </div>
+    </div>
+    <div class="section">
         <h2>You may also like</h2>    
         <div class="episodeCardHolder">
             <div class="episodeCard">
@@ -191,8 +216,9 @@
         aspect-ratio: 16/9;
     }
     .trailerVideo {
-        background: rgb(0, 102, 255);
-        width: 60%;
+        background-image: url("/trailerimage.png");
+        background-size: cover;
+        width: 70%;
         aspect-ratio: 16/9;
     }
     .trailerWrap {
@@ -204,5 +230,29 @@
     .trailerWrap p {
         color: #a3a3a3;
         font-size: 1.2rem;
+    }
+    .detailsCardHolder {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .detailsCard {
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.1);
+        flex: 1 1 0px;
+        flex-grow: 2;
+        border-radius: 3px;
+    }
+    .detailsCard h3 {
+        margin: 3px;
+        font-size: 1.3rem;
+        color: #a3a3a3;
+
+    }
+    .detailsCard p {
+        margin: 5px;
+        font-size: 1.1rem;
     }
 </style>
